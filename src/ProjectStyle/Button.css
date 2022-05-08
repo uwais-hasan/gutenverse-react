@@ -1,0 +1,19 @@
+.style-btn-more-post {
+  border-radius: 32px !important;
+  color: white !important;
+  background-color: #ff4f69 !important;
+  font-weight: 500 !important;
+  font-family: "Poppins" !important;
+  font-size: 15px !important;
+  text-transform: uppercase;
+  margin: 0 auto !important;
+  width: 156px !important;
+  height: 48px !important;
+  margin-top: 40px !important;
+}
+
+.cursor-zoom {
+  cursor: zoom-in;
+}
+
+/*# sourceMappingURL=Button.css.map */

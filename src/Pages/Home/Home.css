@@ -1,0 +1,10 @@
+.padding-top-50 {
+  padding-top: 50px;
+}
+@media (max-width: 768px) {
+  .padding-top-50 {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=Home.css.map */

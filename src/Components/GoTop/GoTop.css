@@ -1,0 +1,29 @@
+.up {
+  z-index: 10000;
+  position: fixed;
+  background-color: #ff4f69;
+  top: 590px;
+  right: 14px;
+  text-align: center;
+  padding: 21px;
+  color: white;
+  width: 24px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  font-size: 25px;
+}
+.up:hover {
+  background-color: #ff7760;
+}
+@media (max-width: 576px) {
+  .up {
+    top: 592px;
+  }
+}
+@media (min-width: 578px) and (max-width: 991px) {
+  .up {
+    top: 1111px;
+  }
+}
+
+/*# sourceMappingURL=GoTop.css.map */

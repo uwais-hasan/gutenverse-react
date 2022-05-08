@@ -1,0 +1,79 @@
+.content-Interesting_World {
+  gap: 40px;
+}
+@media (max-width: 576px) {
+  .content-Interesting_World {
+    flex-direction: column;
+  }
+}
+.content-Interesting_World .content-info {
+  width: 63%;
+  gap: 30px 30px;
+}
+@media (max-width: 768px) {
+  .content-Interesting_World .content-info {
+    gap: 28px 19px;
+  }
+}
+.content-Interesting_World .content-info .absolute-content-span {
+  top: 72%;
+  right: 96px;
+  position: absolute;
+}
+@media (max-width: 576px) {
+  .content-Interesting_World .content-info {
+    width: 100%;
+  }
+}
+.content-Interesting_World .content-info .content {
+  position: relative;
+}
+@media (max-width: 576px) {
+  .content-Interesting_World .content-info .content {
+    width: 100%;
+  }
+}
+.content-Interesting_World .content-info .content .info {
+  position: absolute;
+  bottom: 15px;
+  padding: 0 10px 24px 42px;
+}
+@media (max-width: 576px) {
+  .content-Interesting_World .content-info .content .info {
+    bottom: 13px;
+    padding: 10px;
+  }
+  .content-Interesting_World .content-info .content .info .style-middleTitle {
+    font-size: 23px;
+  }
+}
+.content-Interesting_World .content-info .content .absolute-content {
+  top: 0;
+  position: absolute;
+  right: 44px;
+  background-color: #ff4f69;
+  color: white;
+  padding: 7px;
+  cursor: pointer;
+}
+.content-Interesting_World .content-info .content .absolute-content:hover {
+  background-color: #ff7760;
+}
+.content-Interesting_World .content-sideBar {
+  width: 33%;
+}
+@media (max-width: 576px) {
+  .content-Interesting_World .content-sideBar {
+    width: 100%;
+  }
+}
+.content-Interesting_World .content-sideBar .style-smallText {
+  color: rgba(129, 127, 127, 0.5);
+}
+
+.border-title {
+  border-bottom: 1px solid rgba(129, 127, 127, 0.5);
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=Section-Interesting_World.css.map */

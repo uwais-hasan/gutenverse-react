@@ -1,0 +1,27 @@
+
+@import "../../../Sass/Vars";
+.content-Signup_print{
+background-color: $background_basic;
+  padding: 100px 50px;
+  @media (max-width: 576px){
+    padding: 10px;
+    display: flex;
+    flex-direction: column!important;
+    .content-row {
+      width: 100%;
+    }
+    input{
+      width: 220px!important;
+    }
+  }
+  .content-info{
+    input{
+      width: 300px;
+      height: 12px;
+    }
+    button{
+      height: 45px!important;
+    }
+  }
+
+}

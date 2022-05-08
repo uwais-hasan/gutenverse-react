@@ -1,0 +1,93 @@
+
+@import "../../Sass/Vars";
+
+
+.section-LightBoc{
+    z-index: 100000000000000000000000000000000000000000;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease;
+    transition-delay: 10s;
+    .content-img{
+
+        transition: .3s ease;
+        margin: auto 20px;
+        text-align: center;
+        img {
+            width: 100%;
+            height: 700px;
+            transition: .3s ease-in-out;
+            animation: slider .3s;
+            @media (max-width:991px) {
+                height: auto;
+            }
+        }
+        svg{
+            color: $background-white;
+            font-size: 50px!important;
+            opacity: .7!important;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+
+            &:hover{
+                opacity: 1!important;
+            }
+        }
+        svg:nth-of-type(1){
+
+
+            left: 27px;
+        }
+        svg:nth-of-type(2){
+            right: 27px;
+
+        }
+        .position-absolute-span{
+            position: absolute;
+            top: 3%;
+            right: 27px;
+            font-size: 40px;
+            color: white;
+            opacity: .7;
+            cursor: pointer;
+            &:hover{
+              opacity: 1;
+            }
+        }
+    }
+
+}
+
+ .fade{
+     @keyframes slider {
+
+         from{
+             opacity: 0;
+         }
+         to{
+             opacity:1;
+         }
+
+
+     }
+ }
+ .fade-in{
+     @keyframes slider {
+
+         from{
+             opacity: 0;
+         }
+         to{
+             opacity:1;
+         }
+
+
+     }
+ }
+

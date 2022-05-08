@@ -1,0 +1,21 @@
+
+
+
+.section-description {
+
+  @media (max-width: 768px){
+    flex-wrap: wrap;
+
+  }
+  img {
+    width: 215px;
+    height: 160px;
+    cursor: zoom-in;
+    @media (max-width: 768px) {
+      width: 159px;
+      height: 100px;
+    }
+  }
+
+
+}

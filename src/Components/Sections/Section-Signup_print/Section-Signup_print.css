@@ -1,0 +1,26 @@
+.content-Signup_print {
+  background-color: #e2e2e2;
+  padding: 100px 50px;
+}
+@media (max-width: 576px) {
+  .content-Signup_print {
+    padding: 10px;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .content-Signup_print .content-row {
+    width: 100%;
+  }
+  .content-Signup_print input {
+    width: 220px !important;
+  }
+}
+.content-Signup_print .content-info input {
+  width: 300px;
+  height: 12px;
+}
+.content-Signup_print .content-info button {
+  height: 45px !important;
+}
+
+/*# sourceMappingURL=Section-Signup_print.css.map */

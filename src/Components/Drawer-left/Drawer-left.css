@@ -1,0 +1,62 @@
+.content-drawer-left {
+  overflow-y: auto;
+  max-height: 100%;
+  position: absolute;
+  background: #f9fbff;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+  padding: 20px 38px;
+  background: #f9fbff;
+  right: 0;
+  width: 25%;
+}
+@media (max-width: 575px) {
+  .content-drawer-left {
+    width: 80%;
+  }
+}
+.content-drawer-left .close-box {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.content-drawer-left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 0 0 0;
+}
+.content-drawer-left ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e6ecf5;
+  padding: 11px 0;
+}
+.content-drawer-left ul li span {
+  background: #ff4f69;
+  padding: 6px;
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 18px;
+}
+.content-drawer-left ul li a {
+  color: #2d4044;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.delete {
+  transform: translateX(100%);
+}
+
+/*# sourceMappingURL=Drawer-left.css.map */

@@ -1,0 +1,83 @@
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px 10px;
+  background-color: #e6ecf5;
+  padding-top: 50px;
+}
+.content-footer .footer-socialMedia {
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .content-footer .footer-socialMedia {
+    flex-direction: column;
+  }
+}
+.content-footer .footer-socialMedia .hover-youtube:hover {
+  background: #ec2828 !important;
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-youtube:hover svg, .content-footer .footer-socialMedia .hover-youtube:hover a {
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-insta:hover {
+  background: violet;
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-insta:hover svg, .content-footer .footer-socialMedia .hover-insta:hover a {
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-face:hover {
+  background: #47639e !important;
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-face:hover svg, .content-footer .footer-socialMedia .hover-face:hover a {
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-twitter:hover {
+  background: #00abf0 !important;
+  color: white;
+}
+.content-footer .footer-socialMedia .hover-twitter:hover svg, .content-footer .footer-socialMedia .hover-twitter:hover a {
+  color: white;
+}
+.content-footer .footer-socialMedia svg, .content-footer .footer-socialMedia a {
+  color: #191919;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 40px;
+}
+.content-footer .footer-socialMedia a span {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.content-footer .footer-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-footer .footer-input .parent-sign-up {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: none;
+}
+@media (max-width: 991px) {
+  .content-footer .footer-input .parent-sign-up {
+    width: 80%;
+    margin: 20px;
+  }
+}
+.content-footer .footer-copyright {
+  text-align: center;
+}
+.content-footer .style {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=Footer.css.map */

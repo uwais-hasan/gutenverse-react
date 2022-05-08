@@ -1,0 +1,42 @@
+.SectionDetailsImgCoverRs img:nth-of-type(1) {
+  width: 31.4%;
+}
+@media (max-width: 576px) {
+  .SectionDetailsImgCoverRs img:nth-of-type(1) {
+    width: 47%;
+  }
+}
+.SectionDetailsImgCoverRs img:nth-of-type(2) {
+  width: 31.4%;
+}
+@media (max-width: 576px) {
+  .SectionDetailsImgCoverRs img:nth-of-type(2) {
+    width: 47%;
+  }
+}
+.SectionDetailsImgCoverRs img:nth-of-type(3) {
+  width: 31.4%;
+}
+@media (max-width: 576px) {
+  .SectionDetailsImgCoverRs img:nth-of-type(3) {
+    width: 47%;
+  }
+}
+.SectionDetailsImgCoverRs img:nth-of-type(4) {
+  width: 48%;
+}
+@media (max-width: 576px) {
+  .SectionDetailsImgCoverRs img:nth-of-type(4) {
+    width: 47%;
+  }
+}
+.SectionDetailsImgCoverRs img:nth-of-type(5) {
+  width: 48%;
+}
+@media (max-width: 576px) {
+  .SectionDetailsImgCoverRs img:nth-of-type(5) {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=SectionDetailsImgCoverRs.css.map */

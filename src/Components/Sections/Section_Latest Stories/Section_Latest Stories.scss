@@ -1,0 +1,68 @@
+
+@import "../../../Sass/Vars.css";
+.section_Latest_Stories {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 360px 63px;
+  @media (min-width: 576px)and (max-width: 992px){
+
+    gap: 324px 0;
+  }
+  @media (max-width: 575px){
+    flex-direction: column;
+    gap: 263px 63px;
+    .content:nth-of-type(2){
+      height: 276px;
+      .content-img{
+        height: auto;
+      }
+      .content-info{
+        top: 205px;
+      }
+    }
+    .content:nth-of-type(5){
+      height: 276px;
+      .content-img{
+        height: auto;
+      }
+      .content-info{
+        top: 205px;
+      }
+    }
+  }
+  .content {
+    width: 30%;
+position: relative;
+    @media (min-width: 576px)and (max-width: 992px){
+width: 48%;
+
+    }
+    @media (max-width: 575px){
+      width: 100%;
+    }
+
+    .content-img {
+      width: 100%;
+      height: 100%;
+     img{
+        width: 100%;
+       height: 100%;
+      }
+    }
+    .content-info {
+      background-color: white !important;
+      position: absolute;
+      padding: 10px;
+      width: 80%;
+      top: 87%;
+.style-middleTitle-2{
+  padding: 20px 0 15px;
+  margin-bottom: 0;
+}
+    }
+  }
+}

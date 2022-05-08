@@ -1,0 +1,16 @@
+
+
+@import "../../Sass/Vars";
+.errors{
+  position: absolute;
+  top: 60%;
+  background: $color_red;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  left: 33%;
+  transition: .3s ease-in-out;
+  @media (max-width: 575px) {
+    left: 7%;
+  }
+}

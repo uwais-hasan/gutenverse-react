@@ -1,0 +1,91 @@
+.section-post-relatedPost {
+  max-width: 766px;
+  margin: 50px auto 359px;
+}
+.section-post-relatedPost h2 {
+  transition: 0.3s ease-in-out;
+}
+.section-post-relatedPost h2:hover {
+  color: #ff4f69;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .section-post-relatedPost {
+    margin: 20px !important;
+    padding-bottom: 314px !important;
+  }
+}
+.section-post-relatedPost .section_Latest_Stories {
+  gap: 304px 76px;
+}
+.section-post-relatedPost .section_Latest_Stories .content {
+  width: 45%;
+}
+@media (max-width: 768px) {
+  .section-post-relatedPost .section_Latest_Stories .content {
+    width: 45.5%;
+  }
+}
+@media (max-width: 576px) {
+  .section-post-relatedPost .section_Latest_Stories .content {
+    width: 100%;
+  }
+}
+.section-post-relatedPost .section_Latest_Stories .content .content-info {
+  left: -13px;
+  width: 83%;
+}
+.section-post-relatedPost .section_Latest_Stories .content h2 {
+  font-size: 28px;
+}
+.section-post-relatedPost .section_Latest_Stories .absolute-content {
+  top: 0;
+  position: absolute;
+  right: 44px;
+  background-color: #ff4f69;
+  color: white;
+  padding: 7px;
+  cursor: pointer;
+}
+.section-post-relatedPost .section_Latest_Stories .absolute-content:hover {
+  background-color: #ff7760;
+}
+
+.section-post-relatedPost-RS .section-post-relatedPost {
+  margin: 50px auto 256px;
+}
+
+.otherParentSectionPostRelatedPost .section-post-relatedPost-RS .section-post-relatedPost {
+  margin: 50px auto 287px;
+}
+@media (min-width: 577px) and (max-width: 992px) {
+  .otherParentSectionPostRelatedPost .section-post-relatedPost-RS .section-post-relatedPost {
+    margin: 50px auto 241px;
+  }
+  .otherParentSectionPostRelatedPost .section-post-relatedPost-RS .section-post-relatedPost .content {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .otherParentSectionPostRelatedPost .section-post-relatedPost-RS .section-post-relatedPost {
+    margin-bottom: 89px !important;
+  }
+}
+.otherParentSectionPostRelatedPost .section-post-relatedPost-RS .section-post-relatedPost .section_Latest_Stories {
+  justify-content: flex-start;
+}
+
+.section-post-relatedPost-RL .section-post-relatedPost {
+  margin: 50px auto 295px;
+}
+@media (max-width: 576px) {
+  .section-post-relatedPost-RL .section-post-relatedPost {
+    margin: 50px auto 30px;
+  }
+}
+
+.section-RelatedPost-Rl-Parent .section-post-relatedPost-RL .section-post-relatedPost .section_Latest_Stories {
+  justify-content: flex-start;
+}
+
+/*# sourceMappingURL=Section-Related-Posts.css.map */

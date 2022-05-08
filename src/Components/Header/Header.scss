@@ -1,0 +1,79 @@
+
+@import "../../Sass/Vars";
+
+.app-header{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px 29px;
+
+
+
+
+  @media (max-width:768px) {
+    flex-wrap: wrap;
+    padding: 20px 20px 0;
+    gap: 20px;
+    .img-title{
+    width: 100%;
+      order: 1;
+    }
+    .socialMedia{
+      width: 40%;
+      order: 2;
+     float: right;
+    }
+    .bar-search{
+      width: 40%;
+      order: 2;
+      float: left;
+    }
+  }
+
+  .socialMedia{
+    svg{
+      padding: 5px;
+      color: black;
+      border-radius: 50%;
+      font-size: 17px!important;
+      transition: .3s ease-in-out;
+    }
+    .hover-youtube:hover{
+      background: #ec2828 !important;
+      color: white;
+    }
+    .hover-insta:hover{
+      background: violet;
+      color: white;
+    }
+    .hover-face:hover{
+      background: #47639e !important;
+      color: white;
+    }
+    .hover-twitter:hover{
+      background: #00abf0 !important;
+      color: white;
+    }
+  }
+
+  .img-title{
+    text-align: center;
+     img{
+      width: 70%;
+      height: 100%;
+       @media (max-width:768px){
+         width: 100%;
+       }
+    }
+  }
+  .bar-search{
+    svg:hover{
+      color: $color_red;
+      cursor: pointer;
+    }
+  }
+
+}
+
+

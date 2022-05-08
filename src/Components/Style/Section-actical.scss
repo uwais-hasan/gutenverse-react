@@ -1,0 +1,22 @@
+
+
+.content-article-Leatherhead{
+
+  max-width: 700px;
+  margin: 10px auto 25px;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+  p{
+    line-height: 29px;
+    letter-spacing: .6px;
+  }
+
+}
+
+
+.update-max-width {
+  .content-article-Leatherhead{
+    max-width: none!important;
+  }
+}

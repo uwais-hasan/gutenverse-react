@@ -1,0 +1,71 @@
+@import "../../Sass/Vars";
+.content-addComment {
+  margin: 20px 180px 30px;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+
+  ::-webkit-input-placeholder {
+    color: red;
+  }
+.color-red-required{
+  color: $color_red;
+}
+  .content-comment {
+    display: flex;
+    flex-direction: column;
+
+    .content-textArea {
+      textarea {
+        resize: none;
+        background-color: $background-sideBar;
+        border: $background-footer;
+        width: 100%;
+        height: 243px;
+margin-top: 7px;
+      }
+    }
+
+    .content-input {
+      display: flex;
+      justify-content: space-between;
+      //gap: 72px;
+      width: 100%;
+      @media (max-width: 576px){
+        flex-direction: column;
+      }
+      .style-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 32%;
+        @media (max-width: 576px){
+          width: 100%;
+        }
+        input {
+          background-color: $background-sideBar;
+          border: $background-footer;
+          height: 60px;
+          width: 100%;
+          line-height: 1px;
+        }
+        }
+      }
+
+    }
+  .checkbox{
+    button{
+      background-color: $color_red;
+      border-radius: initial;
+      padding: 10px 30px;
+      font-size: $span-smallSize-2;
+      font-family: $font-family-Poppins;
+      margin: 0;
+      width: 200px;
+      height: 50px!important;
+    }
+  }
+  }
+
+

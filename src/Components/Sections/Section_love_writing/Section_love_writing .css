@@ -1,0 +1,55 @@
+.content_love_writing {
+  background-color: #212330;
+}
+.content_love_writing .container-home {
+  margin-bottom: 0 !important;
+}
+.content_love_writing .style-global-text-info {
+  color: white !important;
+}
+.content_love_writing .content-section {
+  gap: 10%;
+  padding: 100px 10px;
+}
+@media (max-width: 768px) {
+  .content_love_writing .content-section {
+    padding: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .content_love_writing .content-section {
+    flex-direction: column;
+  }
+}
+.content_love_writing .content-section .content-info {
+  width: 35%;
+}
+@media (max-width: 576px) {
+  .content_love_writing .content-section .content-info {
+    width: 100%;
+  }
+}
+.content_love_writing .content-section .content-info-2 {
+  width: 60%;
+}
+@media (max-width: 576px) {
+  .content_love_writing .content-section .content-info-2 {
+    width: 100%;
+  }
+}
+.content_love_writing .content-section .content-info-2 .content {
+  position: relative;
+}
+.content_love_writing .content-section .content-info-2 .content .content-info-section {
+  position: absolute;
+  padding: 30px;
+  bottom: 0;
+}
+@media (max-width: 576px) {
+  .content_love_writing .content-section .content-info-2 .content .content-info-section {
+    position: absolute;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=Section_love_writing%20.css.map */

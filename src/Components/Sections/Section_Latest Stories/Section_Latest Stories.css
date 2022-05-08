@@ -1,0 +1,73 @@
+@import "../../../Sass/Vars.css";
+.section_Latest_Stories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 360px 63px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .section_Latest_Stories {
+    gap: 324px 0;
+  }
+}
+@media (max-width: 575px) {
+  .section_Latest_Stories {
+    flex-direction: column;
+    gap: 263px 63px;
+  }
+  .section_Latest_Stories .content:nth-of-type(2) {
+    height: 276px;
+  }
+  .section_Latest_Stories .content:nth-of-type(2) .content-img {
+    height: auto;
+  }
+  .section_Latest_Stories .content:nth-of-type(2) .content-info {
+    top: 205px;
+  }
+  .section_Latest_Stories .content:nth-of-type(5) {
+    height: 276px;
+  }
+  .section_Latest_Stories .content:nth-of-type(5) .content-img {
+    height: auto;
+  }
+  .section_Latest_Stories .content:nth-of-type(5) .content-info {
+    top: 205px;
+  }
+}
+.section_Latest_Stories .content {
+  width: 30%;
+  position: relative;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .section_Latest_Stories .content {
+    width: 48%;
+  }
+}
+@media (max-width: 575px) {
+  .section_Latest_Stories .content {
+    width: 100%;
+  }
+}
+.section_Latest_Stories .content .content-img {
+  width: 100%;
+  height: 100%;
+}
+.section_Latest_Stories .content .content-img img {
+  width: 100%;
+  height: 100%;
+}
+.section_Latest_Stories .content .content-info {
+  background-color: white !important;
+  position: absolute;
+  padding: 10px;
+  width: 80%;
+  top: 87%;
+}
+.section_Latest_Stories .content .content-info .style-middleTitle-2 {
+  padding: 20px 0 15px;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=Section_Latest%20Stories.css.map */

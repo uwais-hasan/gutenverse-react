@@ -1,0 +1,89 @@
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-media-column {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 576px) {
+  .flex-row-media-column {
+    flex-direction: column;
+  }
+}
+
+.flex-row-media-column-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media (max-width: 992px) {
+  .flex-row-media-column-reverse {
+    flex-direction: column;
+  }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.gab-10 {
+  gap: 10px;
+}
+
+.gab-20 {
+  gap: 19px;
+}
+
+.gab-30 {
+  gap: 30px;
+}
+
+.gab-15 {
+  gap: 15px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.justify-spaceAround {
+  justify-content: space-around;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=FlexBox.css.map */

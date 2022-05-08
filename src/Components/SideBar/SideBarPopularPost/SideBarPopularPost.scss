@@ -1,0 +1,49 @@
+@import "../../../Sass/Vars";
+
+.parent-section-popular-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 38px 38px;
+  background: $background-sideBar;
+  margin-bottom: 50px;
+
+  .section-popular-post {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    h2{
+      transition: .3s ease-in-out;
+    }
+    h2:hover{
+      color: $color_red;
+    }
+
+    .content-img {
+
+
+      img {
+        width: 84px;
+        height: 84px;
+      }
+
+    }
+
+    .content-info {
+      position: relative;
+
+      .number-section {
+        position: absolute;
+        top: -18px;
+        left: -96px;
+        background: #f9fbff;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+      }
+    }
+
+  }
+}

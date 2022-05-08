@@ -1,0 +1,67 @@
+.update-form-sign {
+  background: #f4f7f9;
+  margin: 50px auto 25px;
+  padding: 25px 25px 40px;
+}
+
+.update-form-sign-ws {
+  background: #f4f7f9;
+  margin: 0px auto 25px;
+  padding: 25px 25px 40px;
+  max-width: 700px;
+  clear: both;
+}
+
+.parent-sign-up {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .parent-sign-up {
+    width: 100%;
+  }
+}
+
+.form-signUp {
+  position: relative;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .form-signUp {
+    margin: 20px;
+  }
+}
+.form-signUp .border-input {
+  width: 0;
+  border-bottom: 3px solid red;
+  position: absolute;
+  top: 40px;
+  left: -1;
+  transition: 0.3s ease-in-out;
+}
+.form-signUp input {
+  transition: 0.3s ease-in-out;
+  width: 66%;
+  height: 2px !important;
+  outline-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.form-signUp input:focus ~ .border-input {
+  width: 67%;
+}
+.form-signUp input::placeholder {
+  line-height: 5;
+}
+.form-signUp button {
+  height: 44px !important;
+  width: 33%;
+  color: white;
+  background: #ff4f69;
+  border: none;
+  font-size: 11px;
+  line-height: 1px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=Sign-Up-post.css.map */

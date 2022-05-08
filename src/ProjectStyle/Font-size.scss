@@ -1,0 +1,290 @@
+
+@import "../Sass/Vars";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.styleSmallSpan{
+  font-family: $font-family-Poppins;
+  font-size:$span_smallSize ;
+  color: $span_smallSize-color;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.styleBigTitle{
+  font-size: $title_bigSize-40;
+  color: black;
+  font-weight: bold;
+}
+.styleMiddleTitle{
+  font-family: $font-family-open-sans;
+  font-size: $title_middleSize;
+  color: $span_smallSize-color;
+}
+
+//sections
+.span-above-title{
+  font-size: $span-smallSize-2;
+  color: $color-002044;
+  font-weight: $font-weight2;
+  text-transform: uppercase;
+  font-family: $font-family-Poppins;
+  letter-spacing: 3px;
+}
+.style-app-title{
+  font-size: $title_fontSize-50;
+  color: $color-002044;
+  font-family: $font-family-open-sans-pro;
+  font-weight: $font-weight2;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+  margin: 7px 0;
+
+  @media (max-width: 991px) {
+    font-size: 5vh;
+  }
+}
+
+
+.style-middleTitle{
+  color: $para-middleSize-color;
+  font-size: $title_middleSize-2;
+  font-weight: $font-weight2;
+  font-family: $font-family-open-sans-pro;
+  &:hover{
+    color: $color_red;
+  }
+  @media (max-width: 575px) {
+    font-size: 30px;
+  }
+}
+.style-smallText{
+  font-family:$font-family-Poppins;
+  line-height: 18px;
+  font-weight: $font-weight2;
+  font-style: normal;
+  color: $color-444;
+  font-size: $span_smallSize;
+  letter-spacing: 2px;
+
+}
+.style-middleTitle-2{
+  color: $color-444;
+  font-size: $font-size-15;
+  font-family: $font-family-open-sans;
+
+
+}
+.style-middleTitle-3{
+
+  font-size: $title_middleSize-3;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $color-2d4044;
+  font-family: $font-family-open-sans-pro;
+}
+.style-big-title{
+  font-size: $font-size-39;
+  font-weight: $font-weight;
+  font-family: $font-family-open-sans-pro;
+
+  font-style: normal;
+  color: $color-002044;
+}
+.style-sideBar-popular{
+  font-family: $font-family-open-sans-pro;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $color-popular-post;
+  font-size: $title-middleSize-5;
+  margin: 0;
+}
+.style-sideBar-popular-history{
+  font-family: $font-family-Poppins;
+  line-height: 18px;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $color-444;
+  font-size:$span_smallSize;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+//stylePost
+//size 11 white
+.style-global-smallSize{
+  font-size: $span_smallSize;
+  font-weight: $font-weight-3;
+  font-family: $font-family-Poppins;
+  letter-spacing: 2px;
+  color:$background-white;
+  text-decoration: none;
+}
+
+//size 13 color 888
+.style-global-smallSize-2{
+  color: $color-888;
+  font-size: $span-smallSize-2;
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight-4;
+  letter-spacing: .4px;
+
+}
+//size 50 white
+.style-global-bigTitle{
+  font-size: $title-fontSize-50;
+  font-weight: $font-weight;
+  font-family: $font-family-open-sans-pro;
+  color:$background-white;
+}
+//size 17 white
+.style-global-middleSize{
+  font-size: $title_middleSize;
+  font-weight: $font-weight-4;
+  font-family: $font-family-open-sans;
+  color:$background-white;
+}
+//size 13 3a3a3a
+
+
+.style-global-text-info-smallSize{
+  font-family: $font-family-Poppins!important;
+  font-weight: $font-weight-3!important;
+  color: $color-071e30!important;
+  font-size: $font-size-12!important;
+}
+//size 17 3a3a3a
+.style-global-text-info{
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight-4;
+  font-style: normal;
+  color: $color-3a3a3a;
+  font-size: $title_middleSize;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  //padding-bottom: 10px;
+}
+//size 22 color313131
+.style-global-text-info-paragraph{
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight-4;
+  font-style: normal;
+  color: $color-313131;
+  font-size: $title-middleSize-22;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+//size 28 002044
+.style-global-title{
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight2;
+  font-style: normal;
+  color: $color-002044;
+  font-size: $title_middleSize-3;
+  padding-bottom: 10px;
+}
+//size 50 002044
+.style-global-bigSize{
+  font-family: $font-family-open-sans-pro;
+  font-weight: $font-weight2;
+  color: $color-002044;
+  font-size: $title_fontSize-50;
+  letter-spacing: 0!important;
+  line-height: 1.1;
+}
+//size 28 0020044
+.style-title{
+  font-family: $font-family-open-sans-pro;
+  font-weight: $font-weight2;
+  font-style: normal;
+  color: $color-2d4044;
+  font-size: $title_middleSize-3;
+}
+
+//size 17 3a3a3a with letter space .5
+.style-global-text-info-3{
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight-4;
+  font-style: normal;
+  color: $color-3a3a3a;
+  font-size: $title_middleSize;
+  line-height: 1.8;
+  letter-spacing: .1px;
+  //padding-bottom: 10px;
+}
+
+//size 11 color444
+.style-global-span-info{
+  font-family: $font-family-Poppins;
+  //line-height: 18px;
+  font-weight: $font-weight-3;
+  font-style: normal;
+  color: $color-444;
+  font-size: $span_smallSize;
+}
+
+//size 13 color 002044
+.style-global-title-small{
+  font-family: $font-family-Poppins;
+  font-size:$span-smallSize-2;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $color-002044;
+}
+
+//size 15 color 000
+.style-global-title-medium{
+  font-family: $font-family-Poppins;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $color-000;
+  font-size: $font-size-15;
+}
+
+//size 14 white
+.style-global-title-medium-white{
+  font-family: $font-family-Poppins;
+  font-weight: $font-weight;
+  font-style: normal;
+  color: $background-white;
+  font-size: $font-size-15;
+}
+
+.style-global-bigSize-White{
+  color: $background-white;
+  font-size: $title_bigSize-40;
+  font-family: $font-family-open-sans;
+  font-weight: $font-weight2;
+  margin: 0;
+  @media (max-width: 575px) {
+    font-size: 30px;
+  }
+}
+
+//size 59
+.font-size-bigger{
+  font-size: $font-size-59;
+  font-weight: $font-weight;
+  color: $background-white;
+  line-height: 1;
+  font-family: $font-family-open-sans-pro;
+  margin: 10px 0;
+}
+
+//size 20 color white
+.style-global-text-info-4{
+  color: $background-white;
+  font-size: $title-middleSize-5;
+  font-family: $font-family-open-sans-pro;
+  font-weight: $font-weight2;
+}
+.font-size-50{
+  font-size: $title_fontSize-50!important;
+  @media (max-width: 575px) {
+    font-size: 30px!important;
+    
+  }
+}

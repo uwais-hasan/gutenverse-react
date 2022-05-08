@@ -1,0 +1,91 @@
+.section-content-nav .content-app-nav-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+}
+@media (max-width: 767px) {
+  .section-content-nav .content-app-nav-desktop {
+    flex-direction: column;
+    align-items: self-start;
+    background-color: #1f2024;
+    color: white;
+    padding: 0 10px;
+  }
+}
+.section-content-nav .content-app-nav-desktop a {
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .section-content-nav .content-app-nav-desktop a {
+    padding: 2px;
+  }
+}
+.section-content-nav .content-app-nav-desktop .active {
+  color: #ff4f69 !important;
+}
+.section-content-nav .content-app-nav-mobile .hidden-menu {
+  display: none;
+  transition: 0.3s ease-in-out;
+}
+.section-content-nav .content-app-nav-mobile .header-onMobile {
+  background-color: #e8ecf2;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-style: normal;
+  color: #465863;
+  font-size: 13px;
+  gap: 10px;
+}
+.section-content-nav .content-app-nav-mobile .content-nav-mobile {
+  transition: 0.3s ease-in-out;
+  background: #1f2024;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.section-content-nav .content-app-nav-mobile .content-nav-mobile .border {
+  border-left: none;
+}
+.section-content-nav .content-app-nav-mobile .content-nav-mobile a {
+  padding: 10px 0 !important;
+}
+.section-content-nav .content-app-nav-mobile .content-app-selected .menu-item {
+  width: 89%;
+  padding: 0 10px;
+}
+.section-content-nav .content-app-nav-mobile .content-app-selected .menu-item a {
+  color: #fff !important;
+  border-bottom: 1px dotted #444;
+}
+
+.shown {
+  position: fixed;
+  transform: translateY(-225px);
+  left: 0%;
+  z-index: 1000 !important;
+  width: 100%;
+  background-color: white;
+  animation: slowDown 0.9s ease-in-out;
+}
+
+@keyframes slowDown {
+  from {
+    transform: translateY(-400px);
+  }
+  to {
+    transform: translateY(-225px);
+  }
+}
+
+/*# sourceMappingURL=Nav.css.map */

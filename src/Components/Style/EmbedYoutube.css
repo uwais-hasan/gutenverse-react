@@ -1,0 +1,62 @@
+.content-embed-youtube {
+  text-align: center;
+  margin: 20px;
+}
+.content-embed-youtube .controller-content {
+  width: 80%;
+  height: 428px;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .content-embed-youtube .controller-content {
+    width: 100% !important;
+    height: 300px !important;
+  }
+}
+@media (max-width: 576px) {
+  .content-embed-youtube .controller-content {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.content-embed-youtube-RL {
+  text-align: center;
+}
+.content-embed-youtube-RL .controller-content {
+  width: 100%;
+  height: 428px;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .content-embed-youtube-RL .controller-content {
+    width: 100% !important;
+    height: 300px !important;
+  }
+}
+@media (max-width: 576px) {
+  .content-embed-youtube-RL .controller-content {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.section-rs-classic .content-embed-youtube {
+  margin: 0;
+}
+.section-rs-classic .controller-content {
+  width: 100%;
+  height: 428px;
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .section-rs-classic .controller-content {
+    width: 100% !important;
+    height: 300px !important;
+  }
+}
+@media (max-width: 576px) {
+  .section-rs-classic .controller-content {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=EmbedYoutube.css.map */

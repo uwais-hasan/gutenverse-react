@@ -1,0 +1,74 @@
+
+@import "../../Sass/Vars";
+.section-detailsComment{
+  margin: 20px 180px 30px;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+  h2{
+    position: relative;
+    &:after{
+      content: "";
+      border-bottom: 3px solid red;
+      width: 182px;
+      height: 10px;
+      position: absolute;
+      top: 90%;
+
+      left: 0;
+      //@media (max-width: 576px){
+      //  top: 104px;
+      //}
+    }
+  }
+
+.content-details{
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .row-img{
+      display: none;
+    }
+  }
+  .row-img{
+    img{
+      border-radius: 50%;
+    }
+  }
+  .row-details{
+    position: relative;
+    .row-history{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      top: 19px;
+      width: 100%;
+      p:nth-of-type(1){
+        color: #2d4044;
+        font-size: 13px;
+        opacity: .7;
+        letter-spacing: .3px;
+        font-weight: 400;
+        font-family: 'open sans';
+      }
+      .style-history{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        .icon{
+          color: $color-3a3a3a;
+        }
+        span{
+          color: $para-middleSize-color!important;
+          opacity: .7;
+        }
+        &:hover{
+          color: $color_red!important;
+        }
+      }
+    }
+  }
+}
+
+}

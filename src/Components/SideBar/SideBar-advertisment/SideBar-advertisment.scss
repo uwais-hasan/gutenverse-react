@@ -1,0 +1,15 @@
+
+@import "../../../Sass/Vars";
+.section-sideBar-SideBarAdvertisement{
+  padding: 20px;
+  background: $background-sideBar;
+  margin-bottom: 30px;
+  .content-img{
+    width: 100%;
+    padding: 10px 0 20px;
+    img{
+      width: 100%;
+    }
+  }
+
+}

@@ -1,0 +1,41 @@
+.content-post-leatherhead {
+  max-width: 700px;
+  margin: 40px auto 25px;
+}
+.content-post-leatherhead p {
+  line-height: 29px;
+  letter-spacing: 0.6px;
+}
+.content-post-leatherhead ul li {
+  letter-spacing: 0.1px !important;
+}
+@media (max-width: 768px) {
+  .content-post-leatherhead {
+    margin: 20px;
+  }
+}
+.content-post-leatherhead .list-articles ul li {
+  line-height: 26px;
+}
+.content-post-leatherhead .border-paragraph {
+  border-left: 3px solid #ff4f69;
+  padding: 3px 30px;
+}
+.content-post-leatherhead .border-paragraph p {
+  letter-spacing: 1.7px;
+  line-height: 38px;
+  font-size: 24px !important;
+}
+.content-post-leatherhead .border-paragraph p span {
+  display: block;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.content-post-leatherhead .padding-bottom {
+  padding-bottom: 15px;
+}
+.content-post-leatherhead .padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=Leatherhead.css.map */

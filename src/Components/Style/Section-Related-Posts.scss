@@ -1,0 +1,98 @@
+@import "../../Sass/Vars";
+
+.section-post-relatedPost{
+  h2{
+    transition: .3s ease-in-out;
+  }
+  h2:hover{
+    color: $color_red;
+    cursor: pointer;
+  }
+  max-width: 766px;
+  margin: 50px auto 359px;
+
+@media (max-width:768px) {
+  margin: 20px!important;
+  padding-bottom: 314px!important;
+  //embed it was 10 287px
+}
+  .section_Latest_Stories{
+    gap: 304px 76px;
+    .content{
+      width: 45%;
+      @media (max-width: 768px) {
+        width: 45.5%;
+
+      }
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+      .content-info{
+        left: -13px;
+        width: 83%;
+
+      }
+      h2{
+        font-size: $title_middleSize-3;
+      }
+    }
+    .absolute-content{
+      top: 0;
+      position: absolute;
+      right: 44px;
+      background-color: $color_red;
+      color: white;
+      padding: 7px;
+      cursor: pointer;
+      &:hover{
+        background-color: $color-ff7760;
+      }
+    }
+  }
+}
+.section-post-relatedPost-RS{
+  .section-post-relatedPost{
+    margin: 50px auto 256px;//hero
+
+  }
+
+}
+.otherParentSectionPostRelatedPost{
+.section-post-relatedPost-RS{
+  .section-post-relatedPost{
+    margin: 50px auto 287px;
+    @media (min-width: 577px)and(max-width: 992px){
+      margin: 50px auto 241px;
+      .content{
+        width: 100%;
+      }
+    }
+    @media (max-width: 576px){
+         margin-bottom: 89px!important;
+    }
+    .section_Latest_Stories{
+      justify-content: flex-start;
+    }
+  }
+
+}
+}
+.section-post-relatedPost-RL{
+
+    .section-post-relatedPost {
+      margin: 50px auto 295px;
+      @media (max-width: 576px) {
+        margin: 50px auto 30px;
+      }
+  }
+}
+.section-RelatedPost-Rl-Parent{
+  .section-post-relatedPost-RL{
+    .section-post-relatedPost{
+      .section_Latest_Stories{
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+

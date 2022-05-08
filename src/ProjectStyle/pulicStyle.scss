@@ -1,0 +1,124 @@
+
+@import "../Sass/Vars";
+
+
+
+
+
+.text-center{
+  text-align: center;
+}
+.text-left{
+text-align: left;
+}
+.read-more {
+  color: $color_red;
+  font-size: $span-smallSize-2;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+position: relative;
+  &:after {
+    content: "→";
+    padding-left: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: -4px;
+    left: 70px;
+    transition: .5s ease-in-out;
+  }
+
+  &:hover:after {
+   left: 90px;
+  }
+
+}
+.read-more-white{
+  color: $background-white;
+  font-size: $span-smallSize-2;
+  font-weight: $font-weight2;
+  position: absolute;
+  top: 72%;
+  right: 50px;
+  &:after{
+    content:"→";
+    padding-left: 10px;
+    font-size: 20px;
+
+    transition: .5s ease-in-out;
+
+  }
+  &:hover:after {
+    left: 90px;
+  }
+}
+
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.inline-block{
+  display: inline-block;
+}
+
+.letter-space-3{
+  letter-spacing:3px;
+
+}
+.letter-space-1{
+  letter-spacing: 1px;
+
+}
+.letter-space-2{
+  letter-spacing: 2px;
+
+}
+.letter-space-none{
+  letter-spacing: .1px!important;
+}
+.container-pages{
+  margin: 50px 20px 20px;
+}
+.line-height-text{
+  line-height: 1.8;
+}
+.style-italic{
+  font-style:italic;
+}
+.opacity-dot-seven{
+  opacity: .7;
+}
+.margin-rightLeft{
+  padding: 0;
+  margin: 0 10px;
+
+}
+.text-decoration{
+  text-decoration: none;
+}
+.opacity-07{
+  opacity: .7;
+}
+.pointer-cursor{
+  cursor: pointer;
+}
+
+.container-home{
+  margin: 80px 30px;
+  @media (max-width: 575px) {
+    margin: 80px 15px
+  }
+}
+.text-decoration-none{
+  text-decoration: none;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.d-block{
+  display: block;
+}

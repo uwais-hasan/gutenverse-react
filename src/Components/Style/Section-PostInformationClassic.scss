@@ -1,0 +1,52 @@
+
+@import '../../Sass/Vars';
+.SectionPostInformationClassic{
+
+  //margin: 20px 180px 30px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+  p,span,a{
+    color: #3a3a3a;
+  }
+  .variant-nav{
+    color: $color_red;
+  }
+  a:hover{
+    color: $color-red;
+    cursor: pointer;
+  }
+  h2{
+    margin: 10px 0;
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
+  }
+  .absolute-post-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    letter-spacing: 2px;
+   max-width: 700px;
+    margin: 50px auto 10px;
+    @media (max-width: 768px){
+      margin: 10px;
+    }
+
+  }
+
+  .section-coverImages {
+    img {
+      width: 100%;
+    }
+  }
+  .mediaQuery-img{
+    img{
+      @media (max-width: 768px) {
+        width: 100%!important;
+      }
+    }
+  }
+}

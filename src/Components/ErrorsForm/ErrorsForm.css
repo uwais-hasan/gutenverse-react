@@ -1,0 +1,17 @@
+.errors {
+  position: absolute;
+  top: 60%;
+  background: #ff4f69;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  left: 33%;
+  transition: 0.3s ease-in-out;
+}
+@media (max-width: 575px) {
+  .errors {
+    left: 7%;
+  }
+}
+
+/*# sourceMappingURL=ErrorsForm.css.map */

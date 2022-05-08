@@ -1,0 +1,391 @@
+{
+  "category": [
+    {"name": "Featured","count": 3},
+    {"name": "Food","count": 5},
+    {"name": "Movies","count": 8},
+    {"name": "News","count": 4},
+    {"name": "Photo","count": 4},
+    {"name": "Staff's Picks","count": 5},
+    {"name": "Trending","count": 5},
+    {"name": "Uncategorized","count": 5},
+    {"name": "Featured","count": 1},
+    {"name": "Video","count": 2}
+  ],
+  "popularPost": [
+    {
+      "id":1,
+      "urlImage": "../img-news/popularPost/popular-1.jpg",
+      "history": "APRIL 11, 2019•",
+      "title": "At daybreak of the fifteenth day of my search"
+    },
+    {
+      "id": 2,
+      "urlImage": "../img-news/popularPost/popular-2.jpg",
+      "history": "APRIL 11, 2019•",
+      "title": "It must be in a month, but I see nothing here"
+    },
+    {
+      "id": 3,
+      "urlImage": "../img-news/popularPost/popular-3.jpg",
+      "history": "AUGUST 15, 201",
+      "title": "I realized that the crest must be within the range of…"
+    },
+    {
+      "id": 4,
+      "urlImage": "../img-news/popularPost/popular-4.jpg",
+      "history": "APRIL 11, 2019•",
+      "title": "Then going through some small strange motions"
+    },
+    {
+      "id": 5,
+      "urlImage": "../img-news/popularPost/popular-5.jpg",
+      "history": "APRIL 11, 2019•",
+      "title": "The sunset faded to twilight"
+    },
+    {
+      "id": 6,
+      "urlImage": "../img-news/popularPost/popular-6.jpg",
+      "history": "APRIL 11, 2019•",
+      "title": "She was quite silent for a minute or two"
+    }
+  ],
+  "Featured": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/popularPost/popular-2.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "The sunset faded to twilight",
+        "description": "I began walking, therefore, in a big curve, seeking some point of vantage and continually looking a…"
+
+
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-photo/category-photo-2.jpg",
+        "history": "APRIL 8, 2019• FOOD",
+        "type": " PHOTO, TRENDING",
+        "title": "Then going through some small strange motions",
+        "description": "I began walking, therefore, in a big curve, seeking some point of vantage and continually looking a…"
+
+
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-photo/category-photo-3.jpg",
+        "history": "APRIL 8, 2019•",
+        "type": "  FOOD",
+        "title": "Two long weeks I wandered",
+        "description": "Through two long weeks I wandered, stumbling through the nights guided only by the stars and hi…"
+
+      },
+      {
+        "id": 4,
+        "urlImage": "../img-news/category-photo/category-photo-4.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "The sunset faded to twilight",
+        "description": "I began walking, therefore, in a big curve, seeking some point of vantage and continually looking a…"
+
+
+      },
+      {
+        "id": 5,
+        "urlImage": "../img-news/category-photo/category-photo-5.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "I shouted above the sudden noise.",
+        "description": "I shouted above the sudden noise. She looked away from me downhill. The people were coming out …"
+
+
+      },
+      {
+        "id": 6,
+        "urlImage": "../img-news/category-photo/category-photo-6.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "At daybreak of the fifteenth day of my search",
+        "description": "When the amphitheater had cleared I crept stealthily to the top and as the great excavation lay…"
+
+
+      },
+      {
+        "id": 7,
+        "urlImage": "../img-news/category-photo/category-photo-7.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "We Are Testing A Pagination Here",
+        "description": "I can compare it to nothing but a large door mat, ornamented at the edges with little tinkling tags…"
+
+
+      },
+      {
+        "id": 8,
+        "urlImage": "../img-news/category-photo/category-photo-8.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "A great thing made of gold. Down the hill I saw it.",
+        "description": "I and my wife stood amazed. Then I realised that the crest of Maybury Hill must be within range of …"
+
+
+      },
+      {
+        "id": 9,
+        "urlImage": "../img-news/category-photo/category-photo-9.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "The sunset faded to twilight",
+        "description": "I began walking, therefore, in a big curve, seeking some point of vantage and continually looking a…"
+
+
+      },
+      {
+        "id": 10,
+        "urlImage": "../img-news/category-photo/category-photo-10.jpg",
+        "history": "APRIL 11, 2019•",
+        "type": " PHOTO, TRENDING",
+        "title": "He runs towards the Maybury Hill: Embeds",
+        "description": "At first I regarded little but the road before me, and then abruptly my attention was arrested by s…"
+
+
+      }
+    ]},
+  "Food": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-food/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "Then going through some small strange motions",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-food/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "I realized that the crest must be within the range of…",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-food/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "Audio Post: A sigh of satisfaction",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      }
+    ]},
+  "Lifestyle": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-life style/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "Two long weeks I wandered",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-life style/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "I shouted above the sudden noise.",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-life style/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "It is very curious to watch this",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      }
+    ]},
+  "Movies": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-movies/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "A great thing made of gold. Down the hill I saw it.",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-movies/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "He runs towards the Maybury Hill: Embeds",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-movies/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "Can you catch the expression of the whale?",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      }
+    ]},
+  "News": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-news/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "Audio Post: A sigh of satisfaction",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-news/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "She was quite silent for a minute or two",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-news/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "Post with tall image – Your task is to watch the goats",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      }
+    ]},
+  "Photo": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-photo/category-photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "The sunset faded to twilight",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-photo/category-photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "I shouted above the sudden noise.",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage":"../img-news/category-photo/category-photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "The great excavation lay far from the plaza",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+    {
+      "id": 4,
+      "urlImage": "../img-news/category-photo/category-photo-4.jpg",
+      "history": "August 15, 2018",
+      "title": "Testing images in the post",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    },
+    {
+      "id": 5,
+      "urlImage": "../img-news/category-photo/category-photo-5.jpg",
+      "history": "August 15, 2018",
+      "title": "The station generally occupied by the pilot",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    }
+
+  ]},
+  "Staff's Picks": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-staff Picks/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "We Are Testing A Pagination Here",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage":  "../img-news/category-staff Picks/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "What art thrusting that thief-catcher into my face?",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-staff Picks/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "Post with tall image – Your task is to watch the goats",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+    {
+      "id": 4,
+      "urlImage":  "../img-news/category-staff Picks/photo-4.jpg",
+      "history": "August 15, 2018",
+      "title": "And we men, the creatures who inhabit this earth",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    },
+    {
+      "id": 5,
+      "urlImage":  "../img-news/category-staff Picks/photo-5.jpg",
+      "history": "August 15, 2018",
+      "title": "The man liberally provides the brains",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    }
+  ]},
+  "Trending": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+      {
+        "id": 1,
+        "urlImage": "../img-news/category-trending/photo-1.jpg",
+        "history": "August 15, 2018",
+        "title": "The sunset faded to twilight",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 2,
+        "urlImage": "../img-news/category-trending/photo-2.jpg",
+        "history": "August 15, 2018",
+        "title": "It is very curious to watch this",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+      {
+        "id": 3,
+        "urlImage": "../img-news/category-trending/photo-3.jpg",
+        "history": "August 15, 2018",
+        "title": "Testing images in the post",
+        "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+      },
+    {
+      "id": 4,
+      "urlImage": "../img-news/category-trending/photo-4.jpg",
+      "history": "August 15, 2018",
+      "title": "How surprised he’ll be when he finds out",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    },
+    {
+      "id": 5,
+      "urlImage": "../img-news/category-trending/photo-5.jpg",
+      "history": "August 15, 2018",
+      "title": "What art thrusting that thief-catcher into my face?",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    }
+  ]},
+  "Uncategorized": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+    {
+      "id": 1,
+      "urlImage": "../img-news/category-video/photo-1.jpg",
+      "history": "August 15, 2018",
+      "title": "I realized that the crest must be within the range of…",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    },
+    {
+      "id": 2,
+      "urlImage":"../img-news/category-video/photo-2.jpg",
+      "history": "August 15, 2018",
+      "title": "I realized that the crest must be within the range of…",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    }
+
+  ]},
+  "Video": {"topic":"feature", "counter": 5,"underTitle":"someText",  "data": [
+    {
+      "id": 1,
+      "urlImage":"../img-news/category-video/photo-1.jpg",
+      "history": "August 15, 2018",
+      "title": "It must be in a month, but I see nothing here",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    },
+    {
+      "id": 2,
+      "urlImage":"../img-news/category-video/photo-2.jpg",
+      "history": "August 15, 2018",
+      "title": "Always the same impassible member",
+      "description": "At that I gripped my wife’s arm, and without ceremony ran her out into the road."
+    }
+
+  ]}
+}

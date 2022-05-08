@@ -1,0 +1,24 @@
+
+@import '../../Sass/Vars';
+.section-register{
+
+  input{
+    height: 46px;
+    border: 1px solid $color-e7ecf5;
+    margin: 10px 0;
+  }
+  textarea{
+    resize: none;
+    height: 150px;
+    border: 1px solid $color-e7ecf5;
+    margin: 10px 0;
+  }
+  button{
+    width: 100px;
+    height: 40px!important;
+    background-color: $color_red;
+    font-size: 13px;
+    border: none;
+    color: white;
+  }
+}

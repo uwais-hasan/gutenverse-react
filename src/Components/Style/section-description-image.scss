@@ -1,0 +1,22 @@
+
+.section-description-image{
+.content-info-with-img-one{
+  @media (max-width: 575px) {
+    flex-wrap: wrap;
+    gap: 0;
+    img{
+      width: 100%;
+    }
+  }
+}
+  .content-info-with-img-two{
+    img {
+      width: 30%;
+      margin: 0 0 10px 40px;
+      @media (max-width: 575px){
+        width: 50%;
+        margin: 0 0 10px 20px;
+      }
+    }
+  }
+}

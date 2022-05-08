@@ -1,0 +1,98 @@
+@import "../../Sass/Vars";
+
+.content-app-selected {
+  padding: 10px;
+position: relative;
+
+  @media (max-width:768px){
+    padding: 0;
+    width: 100%;
+  }
+.active-select{
+  &:hover{
+    color: $color_red;
+    cursor: pointer;
+  }
+
+}
+  h2{
+    transition: .3s ease-in-out;
+  }
+  h2:hover{
+    color: $color-red;
+  }
+  .control-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width:768px){
+
+      justify-content: space-between;
+      svg{
+        background: $background-border;
+        border-radius: 20px;
+      }
+    }
+  }
+  .menu-item {
+    background: $color-e7ecf5;
+    width: 223px;
+    left: -5px;
+    padding: 20px 10px;
+    position: absolute;
+    top: 80px;
+    cursor: pointer;
+    z-index: 100;
+    display: none;
+    &:after{
+      content: "";
+      position: absolute;
+      top: -19px;
+      border-top: 0px solid transparent;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-bottom: 14px solid  $background_basic ;
+      height: 10px;
+      width: 0;
+      left: 19px;
+      @media (max-width:767px){
+        display: none;
+      }
+    }
+
+    a{
+      font-family: $font-family-Poppins!important;
+      font-weight: $font-weight-3!important;
+      color: $color-071e30;
+      font-size: $font-size-12;
+      display: block;
+      transition: .3s ease-in-out;
+      &:hover {
+        color:$color-6b7391!important;
+       margin-left: 1px;
+      }
+
+
+
+    }
+    @media (max-width:767px){
+      background-color: $background-black;
+      left: 14px;
+      top: 41px;
+      position: static;
+    }
+
+
+  }
+.active-nav-menu-item{
+  .menu-item{
+    display: block;
+  }
+}
+  &:hover .menu-item {
+    display: block;
+  }
+}
+
+
+

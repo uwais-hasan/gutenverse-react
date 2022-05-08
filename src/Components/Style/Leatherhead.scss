@@ -1,0 +1,44 @@
+@import "../../Sass/Vars";
+
+.content-post-leatherhead{
+  p{
+    line-height: 29px;
+    letter-spacing: .6px;
+  }
+
+ul li{
+  letter-spacing: .1px!important;
+}
+  max-width: 700px;
+  margin: 40px auto 25px;
+    @media (max-width: 768px){
+      margin:20px;
+    }
+    .list-articles ul li{
+      line-height: 26px;
+
+    }
+.border-paragraph{
+  border-left: 3px solid $color_red;
+
+  padding: 3px 30px;
+  p{
+    letter-spacing: 1.7px;
+    line-height: 38px;
+    font-size: 24px!important;
+    span{
+      display: block;
+      font-size:$span-smallSize-2;
+      opacity: .7;
+    }
+  }
+}
+
+    .padding-bottom{
+      padding-bottom: 15px;
+    }
+    .padding-bottom-20{
+      padding-bottom: 20px
+    }
+
+  }

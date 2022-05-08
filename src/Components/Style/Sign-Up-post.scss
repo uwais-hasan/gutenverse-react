@@ -1,0 +1,68 @@
+
+
+
+@import "../../Sass/Vars";
+.update-form-sign{
+  background: $background_info_swiper;
+  margin: 50px auto 25px;;
+  padding: 25px 25px 40px;
+}
+.update-form-sign-ws{
+  background: $background_info_swiper;
+  margin: 0px auto 25px;;
+  padding: 25px 25px 40px;
+  max-width: 700px;
+  clear: both;
+}
+
+.parent-sign-up{
+  width:100%;
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+}
+.form-signUp {
+  position: relative;
+display: flex;
+  @media (max-width: 768px) {
+    margin: 20px;
+  }
+
+.border-input{
+  width: 0;
+  border-bottom: 3px solid red;
+  position: absolute;
+  top:40px;
+  left: -1;
+  transition: .3s ease-in-out;
+}
+  input {
+    transition: .3s ease-in-out;
+    width: 66%;
+    height: 2px!important;
+    outline-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    &:focus~.border-input {
+      width: 67%;
+
+    }
+
+    &::placeholder {
+      line-height: 5;
+    }
+  }
+  button {
+    height: 44px!important;
+    width: 33%;
+    color: white;
+    background: $color_red;
+    border: none;
+    font-size: 11px;
+    line-height: 1px;
+    text-transform: uppercase;
+  }
+
+}

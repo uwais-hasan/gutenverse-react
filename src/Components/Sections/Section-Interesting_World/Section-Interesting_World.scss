@@ -1,0 +1,70 @@
+@import "../../../Sass/Vars";
+.content-Interesting_World {
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+  gap: 40px;
+
+  .content-info {
+    width: 63%;
+    gap: 30px 30px;
+    @media (max-width: 768px) {
+      gap: 28px 19px;
+    }
+    .absolute-content-span{
+      top: 72%;
+      right: 96px;
+      position: absolute;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+    .content {
+      position: relative;
+      @media (max-width: 576px) {
+        width: 100%;
+      }
+      .info {
+        position: absolute;
+        bottom: 15px;
+        padding: 0 10px 24px 42px;
+
+        @media (max-width: 576px) {
+          .style-middleTitle {
+            font-size: 23px;
+          }
+          bottom: 13px;
+          padding: 10px;
+        }
+      }
+      .absolute-content{
+        top: 0;
+        position: absolute;
+        right: 44px;
+        background-color: $color_red;
+        color: white;
+        padding: 7px;
+        cursor: pointer;
+        &:hover{
+          background-color: $color-ff7760;
+        }
+      }
+
+    }
+  }
+
+  .content-sideBar {
+    width: 33%;
+    @media (max-width: 576px){
+      width: 100%;
+    }
+.style-smallText{
+  color: $color-gray;
+}
+  }
+}
+
+.border-title{
+  border-bottom: 1px solid $color-gray;
+  padding-bottom: 20px;
+}

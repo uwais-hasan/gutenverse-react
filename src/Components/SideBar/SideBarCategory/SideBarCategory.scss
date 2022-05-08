@@ -1,0 +1,43 @@
+@import "../../../Sass/Vars";
+.section-sideBar-category{
+    padding: 20px;
+    background: $background-sideBar;
+margin-bottom: 30px;
+
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      padding: 10px 0 0 0;
+
+      li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid $background-footer;
+        padding: 11px 0;
+        span{
+          background: $color_red;
+          padding: 6px;
+          border-radius: 50%;
+          color: $background-white;
+          width: 20px;
+          height: 20px;
+          text-align: center;
+          line-height: 18px;
+        }
+        a{
+          text-decoration: none;
+          //font-family: "Open Sans";
+          &:hover{
+            color: $color_red;
+          }
+        }
+      }
+      li:last-child{
+        border-bottom: none!important;
+      }
+    }
+
+
+}

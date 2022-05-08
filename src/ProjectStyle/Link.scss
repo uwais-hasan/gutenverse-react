@@ -1,0 +1,16 @@
+
+@import "../Sass/Vars";
+
+.hover-link{
+
+    color: $color-red;
+  &:hover{
+    color: $color-002044!important;
+    background-color: $color-dce2ea;
+    text-decoration: none!important;
+  }
+
+}
+.text-decoration{
+  text-decoration: underline!important;
+}

@@ -1,0 +1,46 @@
+.border {
+  border-left: 1px solid #e2e2e2;
+  padding: 20px 20px !important;
+}
+@media (max-width: 767px) {
+  .border {
+    border-left: none !important;
+  }
+}
+
+.border-right {
+  border-right: 1px solid #e2e2e2;
+}
+@media (max-width: 767px) {
+  .border-right {
+    border-right: none !important;
+  }
+}
+
+.border-bottom {
+  border-bottom: 2px solid #ff4f69;
+  padding-bottom: 13px;
+}
+
+.border-bottom-gray {
+  border-bottom: 1px solid #e6ecf5;
+  padding-bottom: 18px;
+}
+
+.border-bottom-gray-heavy {
+  border-bottom: 5px solid #e6ecf5;
+}
+
+.border-without-P {
+  border-bottom: 1px solid #ff4f69;
+}
+
+.border-radius-none {
+  border-radius: 0 !important;
+}
+
+.border-title {
+  border-bottom: 2px solid #ff4f69 !important;
+}
+
+/*# sourceMappingURL=Border.css.map */

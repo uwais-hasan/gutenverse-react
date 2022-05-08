@@ -1,0 +1,69 @@
+.app-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px 29px;
+}
+@media (max-width: 768px) {
+  .app-header {
+    flex-wrap: wrap;
+    padding: 20px 20px 0;
+    gap: 20px;
+  }
+  .app-header .img-title {
+    width: 100%;
+    order: 1;
+  }
+  .app-header .socialMedia {
+    width: 40%;
+    order: 2;
+    float: right;
+  }
+  .app-header .bar-search {
+    width: 40%;
+    order: 2;
+    float: left;
+  }
+}
+.app-header .socialMedia svg {
+  padding: 5px;
+  color: black;
+  border-radius: 50%;
+  font-size: 17px !important;
+  transition: 0.3s ease-in-out;
+}
+.app-header .socialMedia .hover-youtube:hover {
+  background: #ec2828 !important;
+  color: white;
+}
+.app-header .socialMedia .hover-insta:hover {
+  background: violet;
+  color: white;
+}
+.app-header .socialMedia .hover-face:hover {
+  background: #47639e !important;
+  color: white;
+}
+.app-header .socialMedia .hover-twitter:hover {
+  background: #00abf0 !important;
+  color: white;
+}
+.app-header .img-title {
+  text-align: center;
+}
+.app-header .img-title img {
+  width: 70%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .app-header .img-title img {
+    width: 100%;
+  }
+}
+.app-header .bar-search svg:hover {
+  color: #ff4f69;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Header.css.map */

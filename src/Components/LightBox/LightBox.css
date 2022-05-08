@@ -1,0 +1,77 @@
+.section-LightBoc {
+  z-index: 99999999999999980000000000000000000000000;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease;
+  transition-delay: 10s;
+}
+.section-LightBoc .content-img {
+  transition: 0.3s ease;
+  margin: auto 20px;
+  text-align: center;
+}
+.section-LightBoc .content-img img {
+  width: 100%;
+  height: 700px;
+  transition: 0.3s ease-in-out;
+  animation: slider 0.3s;
+}
+@media (max-width: 991px) {
+  .section-LightBoc .content-img img {
+    height: auto;
+  }
+}
+.section-LightBoc .content-img svg {
+  color: white;
+  font-size: 50px !important;
+  opacity: 0.7 !important;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+.section-LightBoc .content-img svg:hover {
+  opacity: 1 !important;
+}
+.section-LightBoc .content-img svg:nth-of-type(1) {
+  left: 27px;
+}
+.section-LightBoc .content-img svg:nth-of-type(2) {
+  right: 27px;
+}
+.section-LightBoc .content-img .position-absolute-span {
+  position: absolute;
+  top: 3%;
+  right: 27px;
+  font-size: 40px;
+  color: white;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.section-LightBoc .content-img .position-absolute-span:hover {
+  opacity: 1;
+}
+
+@keyframes slider {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slider {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=LightBox.css.map */

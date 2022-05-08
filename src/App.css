@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import "ProjectStyle/pulicStyle.css";
+@import "ProjectStyle/Border.css";
+@import "ProjectStyle/Button.css";
+@import "ProjectStyle/Color.css";
+@import "ProjectStyle/FlexBox.css";
+@import "ProjectStyle/Font-size.css";
+@import "ProjectStyle/Margin.css";
+@import "ProjectStyle/Width.css";
+@import 'ProjectStyle/Link.css';
+body {
+  font-family: "open sans", "Poppins", "Source Sans Pro", "Roboto Slab";
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+a {
+  transition: 0.3s ease-in-out;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #ff4f69;
+}
+
+.max-width-title {
+  max-width: 800px;
+}
+
+.App {
+  position: relative;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+.App .none {
+  background: rgba(0, 0, 0, 0.8);
+  max-height: 100vh;
+}
+.App .none .border, .App .none .content-app-nav, .App .none .section-content-nav .content-app-nav-desktop {
+  border: none;
+}
+.App .block {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=App.css.map */

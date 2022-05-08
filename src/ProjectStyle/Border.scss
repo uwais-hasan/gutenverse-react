@@ -1,0 +1,51 @@
+
+
+@import "../Sass/Vars";
+
+
+.border{
+  border-left: $border-nav;
+  padding: 20px 20px!important;
+  @media (max-width:767px){
+
+    border-left: none!important;
+
+
+  }
+  //line-height: 54px;
+}
+.border-right{
+  border-right:$border-nav;
+  @media (max-width:767px){
+
+    border-right: none!important;
+
+
+  }
+  //line-height: 54px;
+}
+.border-bottom{
+  border-bottom: 2px solid $color_ff4f69;
+  padding-bottom: 13px;
+}
+
+.border-bottom-gray{
+  border-bottom: 1px solid $background-footer;
+  padding-bottom:18px;
+}
+.border-bottom-gray-heavy{
+  border-bottom: 5px solid $background-footer;
+}
+.border-without-P{
+border-bottom: 1px solid $color_red;
+}
+
+.border-radius-none{
+  border-radius: 0!important;
+}
+.border-title{
+  border-bottom: 2px solid $color_red!important;
+}
+
+
+

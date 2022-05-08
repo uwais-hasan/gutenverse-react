@@ -1,0 +1,42 @@
+
+
+@import "../../Sass/Vars";
+
+.section-search{
+
+  position: relative;
+  .content-Drawer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 1;
+    animation-name: test;
+    animation-duration: 1s;
+    //border-bottom: 1px solid #474747;
+  }
+  button {
+    height: 53px !important;
+    border-radius: 0px!important;
+    width: 10%;
+    background-color: $color_red!important;
+  }
+  input{
+
+    padding: 8px 35px ;
+    background: rgba(153,153,153,.05);
+    border: 1px solid rgba(153,153,153,.2);
+    font-size: 16px ;
+    width: 35%;
+    height: 36px ;
+  }
+  .margin-right{
+    padding: 0 0 0 48px;
+  }
+
+}
+
+@keyframes test {
+  from {  height: 0; opacity: 0}
+  to {  height: 100vh; opacity: 1 }
+}

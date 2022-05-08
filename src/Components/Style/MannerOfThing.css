@@ -1,0 +1,37 @@
+.section-manner-thing .content-image {
+  width: 100%;
+  margin: 0 30px;
+}
+@media (max-width: 768px) {
+  .section-manner-thing .content-image {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .section-manner-thing .content-image {
+    gap: 20px;
+  }
+}
+.section-manner-thing .content-image img {
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .section-manner-thing .content-image img:nth-of-type(1) {
+    width: 45%;
+  }
+  .section-manner-thing .content-image img:nth-of-type(2) {
+    width: 45%;
+  }
+  .section-manner-thing .content-image img:nth-of-type(3) {
+    width: 100%;
+  }
+}
+.section-manner-thing .content-articles {
+  margin: 50px auto 30px;
+}
+.section-manner-thing .content-articles ul li {
+  letter-spacing: 0.1px;
+}
+
+/*# sourceMappingURL=MannerOfThing.css.map */

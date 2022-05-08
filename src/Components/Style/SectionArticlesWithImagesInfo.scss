@@ -1,0 +1,21 @@
+
+
+.SectionArticlesWithImagesInfo{
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+
+  }
+  img{
+    height: 1024px;
+    float: left;
+    margin-right: 25px;
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .article-reverse{
+    float: revert;
+  }
+}

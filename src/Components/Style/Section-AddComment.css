@@ -1,0 +1,67 @@
+.content-addComment {
+  margin: 20px 180px 30px;
+}
+@media (max-width: 768px) {
+  .content-addComment {
+    margin: 20px;
+  }
+}
+.content-addComment ::-webkit-input-placeholder {
+  color: red;
+}
+.content-addComment .color-red-required {
+  color: #ff4f69;
+}
+.content-addComment .content-comment {
+  display: flex;
+  flex-direction: column;
+}
+.content-addComment .content-comment .content-textArea textarea {
+  resize: none;
+  background-color: #f9fbff;
+  border: #e6ecf5;
+  width: 100%;
+  height: 243px;
+  margin-top: 7px;
+}
+.content-addComment .content-comment .content-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .content-addComment .content-comment .content-input {
+    flex-direction: column;
+  }
+}
+.content-addComment .content-comment .content-input .style-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 32%;
+}
+@media (max-width: 576px) {
+  .content-addComment .content-comment .content-input .style-flex {
+    width: 100%;
+  }
+}
+.content-addComment .content-comment .content-input .style-flex input {
+  background-color: #f9fbff;
+  border: #e6ecf5;
+  height: 60px;
+  width: 100%;
+  line-height: 1px;
+}
+.content-addComment .checkbox button {
+  background-color: #ff4f69;
+  border-radius: initial;
+  padding: 10px 30px;
+  font-size: 13px;
+  font-family: "Poppins";
+  margin: 0;
+  width: 200px;
+  height: 50px !important;
+}
+
+/*# sourceMappingURL=Section-AddComment.css.map */

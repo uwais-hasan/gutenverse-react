@@ -1,0 +1,25 @@
+.section-detailsImg {
+  gap: 18px;
+}
+@media (max-width: 576px) {
+  .section-detailsImg {
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+}
+.section-detailsImg img {
+  width: 32%;
+}
+@media (max-width: 576px) {
+  .section-detailsImg img:nth-of-type(1) {
+    width: 49%;
+  }
+  .section-detailsImg img:nth-of-type(2) {
+    width: 49%;
+  }
+  .section-detailsImg img:nth-of-type(3) {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=SectionDetailsImg.css.map */

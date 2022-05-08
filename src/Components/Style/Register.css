@@ -1,0 +1,21 @@
+.section-register input {
+  height: 46px;
+  border: 1px solid #e7ecf5;
+  margin: 10px 0;
+}
+.section-register textarea {
+  resize: none;
+  height: 150px;
+  border: 1px solid #e7ecf5;
+  margin: 10px 0;
+}
+.section-register button {
+  width: 100px;
+  height: 40px !important;
+  background-color: #ff4f69;
+  font-size: 13px;
+  border: none;
+  color: white;
+}
+
+/*# sourceMappingURL=Register.css.map */

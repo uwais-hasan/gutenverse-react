@@ -1,0 +1,14 @@
+.hover-link {
+  color: #ff4f69;
+}
+.hover-link:hover {
+  color: #002044 !important;
+  background-color: #dce2ea;
+  text-decoration: none !important;
+}
+
+.text-decoration {
+  text-decoration: underline !important;
+}
+
+/*# sourceMappingURL=Link.css.map */

@@ -1,0 +1,50 @@
+@import "../../../Sass/Vars";
+
+.content_love_writing {
+
+  background-color: $background-nearFromBlue;
+
+.container-home{
+  margin-bottom: 0!important;
+}
+  .style-global-text-info{
+    color: $background-white!important;
+  }
+  .content-section {
+    gap: 10%;
+    padding: 100px 10px;
+    @media (max-width:768px){
+      padding: 10px;
+    }
+    @media (max-width: 575px){
+      flex-direction: column;
+
+    }
+    .content-info {
+
+      width: 35%;
+      @media (max-width: 576px){
+        width: 100%;
+      }
+    }
+
+    .content-info-2 {
+      width: 60%;
+      @media (max-width: 576px){
+        width: 100%;
+      }
+      .content {
+        position: relative;
+        .content-info-section{
+          position: absolute;
+          padding: 30px;
+          bottom: 0;
+          @media (max-width: 576px){
+            position: absolute;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}

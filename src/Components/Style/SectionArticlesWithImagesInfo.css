@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .SectionArticlesWithImagesInfo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.SectionArticlesWithImagesInfo img {
+  height: 1024px;
+  float: left;
+  margin-right: 25px;
+}
+@media (max-width: 768px) {
+  .SectionArticlesWithImagesInfo img {
+    width: 100%;
+    height: auto;
+  }
+}
+.SectionArticlesWithImagesInfo .article-reverse {
+  float: revert;
+}
+
+/*# sourceMappingURL=SectionArticlesWithImagesInfo.css.map */

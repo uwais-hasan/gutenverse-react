@@ -1,0 +1,35 @@
+
+@import "../../Sass/Vars";
+
+.section-post-more-info{
+  .section-content{
+    p{
+      line-height: 29px;
+      letter-spacing: .6px;
+    }
+    max-width: 700px;
+    margin: 50px auto 25px;
+    @media (max-width: 768px) {
+      margin: 10px;
+      .flex-row{
+        flex-direction: column-reverse;
+        margin-top:28px;
+        gap: 20px;
+      }
+    }
+
+    .flex-row p{
+      margin: 0 24px 0 0;
+      justify-content: flex-start;
+    }
+    .style-global-text-info{
+      a{
+        text-transform: none;
+        color: $color_red;
+        &:hover{
+          background: $color-dce2ea;
+        }
+      }
+    }
+  }
+}

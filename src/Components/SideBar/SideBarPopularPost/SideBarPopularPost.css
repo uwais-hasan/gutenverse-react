@@ -1,0 +1,39 @@
+.parent-section-popular-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px 38px 38px;
+  background: #f9fbff;
+  margin-bottom: 50px;
+}
+.parent-section-popular-post .section-popular-post {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+.parent-section-popular-post .section-popular-post h2 {
+  transition: 0.3s ease-in-out;
+}
+.parent-section-popular-post .section-popular-post h2:hover {
+  color: #ff4f69;
+}
+.parent-section-popular-post .section-popular-post .content-img img {
+  width: 84px;
+  height: 84px;
+}
+.parent-section-popular-post .section-popular-post .content-info {
+  position: relative;
+}
+.parent-section-popular-post .section-popular-post .content-info .number-section {
+  position: absolute;
+  top: -18px;
+  left: -96px;
+  background: #f9fbff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=SideBarPopularPost.css.map */

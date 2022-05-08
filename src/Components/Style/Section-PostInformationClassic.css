@@ -1,0 +1,50 @@
+.SectionPostInformationClassic {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .SectionPostInformationClassic {
+    margin: 20px;
+  }
+}
+.SectionPostInformationClassic p, .SectionPostInformationClassic span, .SectionPostInformationClassic a {
+  color: #3a3a3a;
+}
+.SectionPostInformationClassic .variant-nav {
+  color: #ff4f69;
+}
+.SectionPostInformationClassic a:hover {
+  color: #ff4f69;
+  cursor: pointer;
+}
+.SectionPostInformationClassic h2 {
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .SectionPostInformationClassic h2 {
+    font-size: 30px;
+  }
+}
+.SectionPostInformationClassic .absolute-post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  letter-spacing: 2px;
+  max-width: 700px;
+  margin: 50px auto 10px;
+}
+@media (max-width: 768px) {
+  .SectionPostInformationClassic .absolute-post-content {
+    margin: 10px;
+  }
+}
+.SectionPostInformationClassic .section-coverImages img {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .SectionPostInformationClassic .mediaQuery-img img {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=Section-PostInformationClassic.css.map */

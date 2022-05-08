@@ -1,0 +1,21 @@
+@media (max-width: 575px) {
+  .section-description-image .content-info-with-img-one {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .section-description-image .content-info-with-img-one img {
+    width: 100%;
+  }
+}
+.section-description-image .content-info-with-img-two img {
+  width: 30%;
+  margin: 0 0 10px 40px;
+}
+@media (max-width: 575px) {
+  .section-description-image .content-info-with-img-two img {
+    width: 50%;
+    margin: 0 0 10px 20px;
+  }
+}
+
+/*# sourceMappingURL=section-description-image.css.map */

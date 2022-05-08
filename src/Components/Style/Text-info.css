@@ -1,0 +1,15 @@
+.content-text-info p {
+  line-height: 29px;
+  max-width: 700px;
+  margin: 50px auto 25px;
+}
+@media (max-width: 768px) {
+  .content-text-info p {
+    margin: 20px 10px;
+  }
+}
+.content-text-info .child-text-info p {
+  margin: 25px auto 25px;
+}
+
+/*# sourceMappingURL=Text-info.css.map */

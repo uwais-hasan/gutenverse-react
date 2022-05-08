@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import "Sass/Vars";
+
+
+@import "ProjectStyle/pulicStyle.css";
+@import "ProjectStyle/Border.css";
+@import "ProjectStyle/Button.css";
+@import "ProjectStyle/Color.css";
+@import "ProjectStyle/FlexBox.css";
+@import "ProjectStyle/Font-size.css";
+@import "ProjectStyle/Margin.css";
+@import "ProjectStyle/Width.css";
+@import 'ProjectStyle/Link.css';
+body{
+  font-family: $font-family-open-sans,$font-family-Poppins,$font-family-open-sans-pro,$font-family-Roboto;
+  padding: 0!important;
+  margin: 0!important;
+  box-sizing: border-box;
+
+}
+
+a{
+  transition: .3s ease-in-out;
+  text-decoration: none!important;
+  &:hover{
+    color: $color_red;
+  }
+}
+
+
+
+.max-width-title {
+  max-width: 800px;
+}
+
+.App {
+  position: relative;
+  transition: .3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+  .none {
+    background: rgba(0, 0, 0, .8);
+    max-height: 100vh;
+    .border, .content-app-nav,.section-content-nav .content-app-nav-desktop {
+      border: none;
+    }
+    //pointer-events: none;
+
+  }
+
+  .block {
+    opacity: 1;
+
+  }
+
+}
+
+
+
+

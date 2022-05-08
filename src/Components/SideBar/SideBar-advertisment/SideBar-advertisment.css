@@ -1,0 +1,14 @@
+.section-sideBar-SideBarAdvertisement {
+  padding: 20px;
+  background: #f9fbff;
+  margin-bottom: 30px;
+}
+.section-sideBar-SideBarAdvertisement .content-img {
+  width: 100%;
+  padding: 10px 0 20px;
+}
+.section-sideBar-SideBarAdvertisement .content-img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=SideBar-advertisment.css.map */
