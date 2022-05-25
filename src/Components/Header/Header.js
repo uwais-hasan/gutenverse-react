@@ -34,7 +34,7 @@ const dispatch=useDispatch();
                     </div>
                     <div className='bar-search'>
                         <SearchIcon onClick={() => dispatch(updateDrawerTop(true))}/>
-                        <FormatAlignLeftIcon onClick={()=>dispatch(updateDrawerLeft(true))}/>
+                        {/*<FormatAlignLeftIcon onClick={()=>dispatch(updateDrawerLeft(true))}/>*/}
                     </div>
                 </div>
             <Nav/>

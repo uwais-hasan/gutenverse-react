@@ -17,7 +17,7 @@ const SectionMoreDescription = () => {
                     tusks of my antagonist crept toward me, until, as the hairy face touched mine again.
                 </p>
             </div>
-            <img className='width_100' src='../img-news/WS-Classic/ws-classic-2.jpg'/>
+            <img className='width_100' src='../img-news/WS-classic/ws-classic-2.jpg'/>
 
             <div className='article'>
                 <p className='style-global-text-info padding-bottom'>

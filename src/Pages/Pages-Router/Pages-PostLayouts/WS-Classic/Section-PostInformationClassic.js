@@ -25,7 +25,7 @@ const SectionPostInformationClassic = () => {
                    <p className="style-global-middleSize letter-space-1 line-height-text ">When the amphitheater had cleared I crept stealthily to the top and as the great excavation lay…</p>
                </div>
                <div className='content-img mediaQuery-img text-center'>
-                   <img  src='../img-news/WS-Classic/ws-classic-1.jpg'/>
+                   <img  src='../img-news/WS-classic/ws-classic-1.jpg'/>
                </div>
 
         </div>

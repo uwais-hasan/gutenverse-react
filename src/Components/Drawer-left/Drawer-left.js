@@ -12,23 +12,25 @@ const DrawerLeft = () => {
      const{drawerLeft}=useSelector(state=>state)
     const dispatch=useDispatch()
 
-    const width =useResize(window.innerWidth)
 
 
 
     return (
-        <div className={`content-drawer-left ${drawerLeft?'activeDrawer':'delete'}`}>
-            <div className='close-box'>
-                <span  onClick={()=>dispatch(updateDrawerLeft(!drawerLeft))}
-                       className='styleMiddleTitle'>close</span>
-               <CloseIcon onClick={()=>dispatch(updateDrawerLeft(!drawerLeft))}/>
-            </div>
-            <div className='content-sideBar-news'>
-                <SideBarCategory title={'section'}/>
-                <SideBarPopularPost/>
-                <SideBarAdvertisement/>
-                <SideBarNewsLetters/>
-            </div>
+        // <div className={`content-drawer-left ${drawerLeft?'activeDrawer':'delete'}`}>
+        //     {/*<div className='close-box'>*/}
+        //     {/*    <span  onClick={()=>dispatch(updateDrawerLeft(!drawerLeft))}*/}
+        //     {/*           className='styleMiddleTitle'>close</span>*/}
+        //     {/*   <CloseIcon onClick={()=>dispatch(updateDrawerLeft(!drawerLeft))}/>*/}
+        //     {/*</div>*/}
+        //     {/*<div className='content-sideBar-news'>*/}
+        //     {/*    <SideBarCategory title={'section'}/>*/}
+        //     {/*    <SideBarPopularPost/>*/}
+        //     {/*    <SideBarAdvertisement/>*/}
+        //     {/*    <SideBarNewsLetters/>*/}
+        //     {/*</div>*/}
+        // </div>
+        <div>
+
         </div>
     );
 };

@@ -100,13 +100,5 @@
   color: #3a3a3a;
   font-size: 17px;
 }
-.section-news .content-sideBar-news {
-  width: 24%;
-}
-@media (max-width: 768px) {
-  .section-news .content-sideBar-news {
-    width: 100%;
-  }
-}
 
 /*# sourceMappingURL=News.css.map */
