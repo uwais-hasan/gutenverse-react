@@ -1,7 +1,7 @@
 
 
 # Demo
-http://orderly.surge.sh
+http://gutenverse-react
 
 # features
 #### 1- this template contain about 50 pages
