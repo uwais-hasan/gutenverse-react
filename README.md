@@ -1,7 +1,7 @@
 
 
 # Demo
-http://owies-h-template.surge.sh
+http://orderly.surge.sh
 
 # features
 #### 1- this template contain about 50 pages
