@@ -1,7 +1,7 @@
 
 
 # Demo
-http://gutenverse-react
+http://gutenverse-react.surge.sh
 
 # features
 #### 1- this template contain about 50 pages
