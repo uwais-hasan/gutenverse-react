@@ -1,8 +1,8 @@
 
 
 # Demo
-http://owies-h-template.surge.sh
 
+http://orderly.surge.sh/
 # features
 #### 1- this template contain about 50 pages
 #### 2- you can search for any pages (the search work when you write title page)
