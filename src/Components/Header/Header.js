@@ -24,13 +24,14 @@ const dispatch=useDispatch();
         <div className='content-app-header'>
                 <div  className='app-header'>
                     <div className='socialMedia'>
-                        <a href='https://www.facebock.com'><FacebookIcon fontSize='15px' className='hover-face'/></a>
+                        <a href='https://www.facebook.com/profile.php?id=100010097286350'><FacebookIcon fontSize='15px' className='hover-face'/></a>
                         <a href='https://www.twitter.com'><TwitterIcon fontSize='14px' className='hover-twitter'/></a>
                         <a href='https://www.instagram.com'><InstagramIcon fontSize='13px' className='hover-insta'/></a>
                         <a href='https://www.youtube.com/'><YouTubeIcon fontSize='13px' className='hover-youtube'/></a>
                     </div>
                     <div className='img-title'>
                       <NavLink to='/'>  <img src='../../img-news/title-content.png'/></NavLink>
+
                     </div>
                     <div className='bar-search'>
                         <SearchIcon onClick={() => dispatch(updateDrawerTop(true))}/>
