@@ -21,7 +21,7 @@ const Footer = () => {
                </div>
                <div className='footer-copyright'>
                    <p className='style-smallText-2'>If you are using GutenVerse theme for WordPress, you will love it!<br/><br/>
-                       © 2019 - 2022 GutenVerse™ by Dannci</p>
+                       © 2019 - 2022 GutenVerse™ Uwais hasan</p>
                </div>
            </div>
     );
