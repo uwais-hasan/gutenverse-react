@@ -1,7 +1,7 @@
 
 
 # Demo
-https://gutenverse.vercel.app
+https://gutenverse-react.vercel.app
 
 # features
 #### 1- this template contain about 50 pages
