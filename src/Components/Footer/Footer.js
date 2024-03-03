@@ -10,7 +10,7 @@ const Footer = () => {
     return (
            <div className='content-footer '>
                <div className='footer-socialMedia flex-row gab-30' >
-                   <a className='flex-row align-center hover-face' href='https://www.google.com'><FacebookIcon /><span>faceBook</span></a>
+                   <a className='flex-row align-center hover-face' href='https://www.facebook.com/profile.php?id=100010097286350'><FacebookIcon /><span>faceBook</span></a>
                    <a className='flex-row align-center hover-twitter' href=''><TwitterIcon /><span>twitter</span></a>
                    <a  className='flex-row align-center hover-insta'href=''><InstagramIcon/><span>instagram</span></a>
                    <a className='flex-row align-center hover-youtube' href=''><YouTubeIcon/><span>youtube</span></a>
